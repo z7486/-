@@ -53,6 +53,3 @@
 - `encoders.pkl`、`scaler.pkl`、`xgb_best_model.pkl` 必须存在于项目根目录；如需自定义路径，请修改 `server/predict_server.py`。
 - 由于 scikit-learn / xgboost 版本差异，加载旧版本序列化模型可能产生警告但可兼容运行；如需更稳妥，请在原版本中使用官方导出方法重新保存后加载。
 
-## 许可
-请在仓库中添加适合你的许可证（如 MIT）。
-
